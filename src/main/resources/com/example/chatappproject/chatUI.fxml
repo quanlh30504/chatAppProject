@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <HBox prefHeight="588.0" prefWidth="311.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="588.0" prefWidth="60.0">
+               <children>
+                  <Pane prefHeight="589.0" prefWidth="63.0" style="-fx-background-color: #555555;">
+                     <children>
+                        <ImageView fitHeight="36.0" fitWidth="32.0" layoutX="14.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../chat.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="35.0" fitWidth="32.0" layoutX="14.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../people.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="34.0" fitWidth="26.0" layoutX="16.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../shopping-cart.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="34.0" fitWidth="26.0" layoutX="16.0" layoutY="516.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../setting.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="34.0" fitWidth="26.0" layoutX="16.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../user.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </VBox>
+            <VBox prefHeight="564.0" prefWidth="254.0" style="-fx-background-color: #666666;">
+               <children>
+                  <Pane prefHeight="88.0" prefWidth="254.0">
+                     <children>
+                        <Pane layoutX="26.0" layoutY="20.0" prefHeight="39.0" prefWidth="212.0" style="-fx-border-radius: 20; -fx-background-radius: 20; -fx-background-color: #444444;">
+                           <children>
+                              <TextField alignment="CENTER" layoutX="34.0" layoutY="7.0" prefHeight="25.0" prefWidth="149.0" promptText="Search" style="-fx-background-color: transparent;">
+                                 <font>
+                                    <Font name="Impact" size="13.0" />
+                                 </font>
+                              </TextField>
+                              <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="11.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../search-interface-symbol.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <HBox prefHeight="66.0" prefWidth="254.0" style="-fx-background-color: #555555; -fx-background-radius: 15;">
+                     <children>
+                        <Pane prefHeight="66.0" prefWidth="254.0">
+                           <children>
+                              <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../boy%20(4).png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="68.0" layoutY="3.0" text="Nam Tony" textFill="#f4f4f4">
+                                 <font>
+                                    <Font name="Impact" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="68.0" layoutY="28.0" prefHeight="27.0" prefWidth="168.0" text="You: Sure thing! Talk to you soon." textFill="#f4f4f4">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <Pane opacity="0.8" prefHeight="66.0" prefWidth="254.0">
+                     <children>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../man%20(5).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="68.0" layoutY="3.0" text="Mark" textFill="#f4f4f4">
+                           <font>
+                              <Font name="Impact" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="68.0" layoutY="28.0" prefHeight="27.0" prefWidth="168.0" text="Mark: Nice! What movie did you watch? I haven't seen anything recently. Any recommendations?" textFill="#f4f4f4">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane opacity="0.8" prefHeight="66.0" prefWidth="254.0">
+                     <children>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../man%20(6).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="68.0" layoutY="3.0" text="Dat" textFill="#f4f4f4">
+                           <font>
+                              <Font name="Impact" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="68.0" layoutY="28.0" prefHeight="27.0" prefWidth="168.0" text="You: Guess what? I got a promotion at work today!" textFill="#f4f4f4">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane opacity="0.8" prefHeight="66.0" prefWidth="254.0">
+                     <children>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../man%20(8).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="68.0" layoutY="3.0" text="Hieu" textFill="#f4f4f4">
+                           <font>
+                              <Font name="Impact" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="68.0" layoutY="28.0" prefHeight="27.0" prefWidth="168.0" text="Hieu: Sorry to hear that. Maybe try deep breathing exercises or take a short walk. What usually helps you unwind?" textFill="#f4f4f4">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="30.0" fitWidth="26.0" layoutX="219.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../number-1.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane opacity="0.8" prefHeight="66.0" prefWidth="254.0">
+                     <children>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../man%20(7).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="68.0" layoutY="3.0" text="Nguyen Tuan Anh" textFill="#f4f4f4">
+                           <font>
+                              <Font name="Impact" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="68.0" layoutY="28.0" prefHeight="27.0" prefWidth="168.0" text="You: Excited for the weekend! Any plans?" textFill="#f4f4f4">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane opacity="0.8" prefHeight="66.0" prefWidth="254.0">
+                     <children>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../woman%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="68.0" layoutY="3.0" text="Q.TRang" textFill="#f4f4f4">
+                           <font>
+                              <Font name="Impact" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="68.0" layoutY="28.0" prefHeight="27.0" prefWidth="168.0" text="You: Hello Quân, My name is Quân" textFill="#f4f4f4">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane opacity="0.8" prefHeight="66.0" prefWidth="254.0">
+                     <children>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../man%20(8).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="68.0" layoutY="3.0" text="Cuong" textFill="#f4f4f4">
+                           <font>
+                              <Font name="Impact" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="68.0" layoutY="28.0" prefHeight="27.0" prefWidth="168.0" text="You: Hello Quân, My name is Quân" textFill="#f4f4f4">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="78.0" prefWidth="547.0">
+               <children>
+                  <Pane prefHeight="71.0" prefWidth="552.0">
+                     <children>
+                        <ImageView fitHeight="53.0" fitWidth="58.0" layoutX="5.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../boy%20(4).png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="64.0" layoutY="13.0" prefHeight="24.0" prefWidth="87.0" text="Nam Tony">
+                           <font>
+                              <Font name="Impact" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="63.0" layoutY="34.0" prefHeight="27.0" prefWidth="168.0" text="Active 30 minutes ago">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="35.0" fitWidth="33.0" layoutX="400.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../telephone.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="35.0" fitWidth="44.0" layoutX="447.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../video-camera.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="42.0" fitWidth="43.0" layoutX="492.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../more.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+            <HBox prefHeight="448.0" prefWidth="547.0">
+               <children>
+                  <Pane prefHeight="446.0" prefWidth="548.0" style="-fx-background-color: #AAAAAA; -fx-background-radius: 5;">
+                     <children>
+                        <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="6.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../boy%20(4).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="492.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../profile.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="492.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../profile.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="492.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../profile.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="6.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../boy%20(4).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="6.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../boy%20(4).png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" layoutX="62.0" layoutY="30.0" prefHeight="31.0" prefWidth="175.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="Hi! How's your day going?">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="269.0" layoutY="88.0" prefHeight="45.0" prefWidth="212.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="Hey! It's been good, thanks.&#10;How about yours?">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="62.0" layoutY="149.0" prefHeight="67.0" prefWidth="225.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="Not bad. Just tackling some tasks&#10;at work.Any exciting plans for the&#10;evening?ur day going?">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="266.0" layoutY="223.0" prefHeight="63.0" prefWidth="214.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="Nice! Evening plans are pretty&#10;chill—thinking of grabbing &#10;dinner with a friend.">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="62.0" layoutY="293.0" prefHeight="66.0" prefWidth="194.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="Absolutely! Let's plan for it.&#10;Anyway, I should get back&#10;to work. Catch you later?">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="322.0" layoutY="351.0" prefHeight="45.0" prefWidth="158.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="Sure thing! Talk to &#10;you soon.">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="24.0" fitWidth="18.0" layoutX="448.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../heart.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="398.0" layoutY="405.0" prefHeight="27.0" prefWidth="85.0" text="Seen at 8:42 am">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                     </children></Pane>
+               </children>
+            </HBox>
+            <HBox prefHeight="76.0" prefWidth="547.0">
+               <children>
+                  <Pane prefHeight="66.0" prefWidth="552.0">
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="10.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../plus.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="23.0" fitWidth="24.0" layoutX="42.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../image.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="72.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../gif.png" />
+                           </image>
+                        </ImageView>
+                        <TextField layoutX="111.0" layoutY="15.0" prefHeight="36.0" prefWidth="422.0" promptText="Type something to send..." style="-fx-background-color: #CCCCCC; -fx-background-radius: 15;" />
+                        <ImageView fitHeight="24.0" fitWidth="25.0" layoutX="501.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../send-message.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
